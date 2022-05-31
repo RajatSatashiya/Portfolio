@@ -30,6 +30,7 @@ body {
   display: flex;
 }
 .card {
+  font-family: Montserrat;
   /* width: 240rem; */
   height: 30rem;
   min-width: 24rem;
@@ -40,13 +41,14 @@ body {
   margin: 0.5rem 1rem;
   overflow: hidden;
   /* cursor: grab; */
-  /* cursor: pointer; */
+  cursor: pointer;
   color: #f28fad;
+  position: relative;
   transition-duration: 1s;
 }
-/* .card:hover { */
-  /* opacity: 0.2; */
-/* } */
+.card:hover {
+  opacity: 0.2;
+}
 .cardimg {
   /* background: url("images/rosemilk2.jpeg"); */
   /* background-size: cover; */
@@ -65,7 +67,27 @@ body {
   padding: 1rem;
 }
 .proj-title {
-  font-family: Montserrat;
   font-weight: 700;
   color: #95a7d8;
+  z-index: 2320;
+}
+.proj-desc {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #d8d8d8;
+  margin-top: 0.6rem;
+}
+.techStack {
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: auto auto auto auto;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #d8d8d8;
+  font-weight: 600;
+  margin-top: 1rem;
+  position: absolute;
+  bottom: 0px;
+  padding: 1rem 1rem;
+  width: 100%;
 }
