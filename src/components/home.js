@@ -11,7 +11,7 @@ function home() {
       <Landing />
       <Experience />
       <Projects />
-      {/* <Skills /> */}
+      <Skills />
       {/* <Contact /> */}
     </div>
   );

@@ -1,7 +1,11 @@
 import React from "react";
 
-function skills() {
-  return <div>skills</div>;
+function Skills() {
+  return (
+    <div className="sub-panel">
+      <h3 className="sub-title">Skills</h3>
+    </div>
+  );
 }
 
-export default skills;
+export default Skills;

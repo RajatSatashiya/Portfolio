@@ -44,10 +44,7 @@ body {
   cursor: pointer;
   color: #f28fad;
   position: relative;
-  transition-duration: 1s;
-}
-.card:hover {
-  opacity: 0.2;
+  transition-duration: 0.6s;
 }
 .cardimg {
   /* background: url("images/rosemilk2.jpeg"); */
@@ -69,7 +66,6 @@ body {
 .proj-title {
   font-weight: 700;
   color: #95a7d8;
-  z-index: 2320;
 }
 .proj-desc {
   font-size: 0.9rem;
@@ -90,4 +86,22 @@ body {
   bottom: 0px;
   padding: 1rem 1rem;
   width: 100%;
+}
+.links {
+  /* z-index: 20; */
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  visibility: hidden;
+}
+.links a {
+  font-size: 2rem;
+  color: #95a7d8;
+  margin-left: 0.3rem;
+}
+.linkHover {
+  visibility: visible;
+}
+.cardHover {
+  opacity: 0.6;
 }
