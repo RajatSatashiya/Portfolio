@@ -1,0 +1,48 @@
+footer {
+  color: white;
+  background: #1a202c;
+  padding: 8rem 10rem;
+}
+.footerUp {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footerDown {
+  font-family: Montserrat;
+  font-weight: 100;
+  display: flex;
+  justify-content: space-between;
+}
+.copy {
+  width: 60%;
+}
+.footHead {
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.list {
+  font-family: Montserrat;
+  font-weight: 200;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+.hrline {
+  margin: 2rem 0 0.6rem 0;
+}
+.socials i {
+  font-size: 1.8rem;
+  margin-left: 1rem;
+}
+.fb:hover {
+  color: #31508a;
+}
+.ld:hover {
+  color: #0a66c2;
+}
+.insta:hover {
+  color: tomato;
+}

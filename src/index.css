@@ -105,3 +105,11 @@ body {
 .cardHover {
   opacity: 0.6;
 }
+.icons img {
+  width: 7rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.icons img:hover {
+  transform: scale(1.2);
+}

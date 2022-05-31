@@ -9,7 +9,7 @@ function navbar() {
         <li>Experience</li>
         <li>Projects</li>
         <li>Skills</li>
-        <li>Contact</li>
+        <li className="resume">Resume</li>
       </ul>
     </nav>
   );

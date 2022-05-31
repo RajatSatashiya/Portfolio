@@ -12,7 +12,6 @@ function home() {
       <Experience />
       <Projects />
       <Skills />
-      {/* <Contact /> */}
     </div>
   );
 }
