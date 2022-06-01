@@ -43,7 +43,11 @@ function experience() {
           </ul>
         </div>
       </div>
-      <img src="./images/laptop.png" className="illustration"></img>
+      <img
+        src="./images/laptop.png"
+        className="illustration"
+        alt="laptop"
+      ></img>
     </div>
   );
 }
