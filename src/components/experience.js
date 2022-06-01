@@ -2,7 +2,7 @@ import React from "react";
 
 function experience() {
   return (
-    <div className="sub-panel">
+    <div className="sub-panel" id="experience">
       <h3 className="sub-title">Experience</h3>
       <div className="sub-desc">
         <div className="exp-1">

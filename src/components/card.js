@@ -20,10 +20,10 @@ function Card(props) {
       <div className="cardimg">
         <img src={props.img}></img>
         <div className={hover ? `links linkHover` : `links`}>
-          <a href={props.demo} target="_blank">
+          <a href={props.demo} target="_blank" title="demo">
             <FontAwesomeIcon icon={faEarthAsia} />
           </a>
-          <a href={props.github} target="_blank">
+          <a href={props.github} target="_blank" title="github">
             <FontAwesomeIcon icon={faSquareArrowUpRight} />
           </a>
         </div>

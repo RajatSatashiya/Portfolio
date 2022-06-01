@@ -30,6 +30,10 @@ nav h3 {
   color: #d7b6b8;
   cursor: pointer;
 }
+.resume {
+  color: #95a7d8;
+  text-decoration: none;
+}
 .landing {
   display: flex;
   background: #1d1d2e;

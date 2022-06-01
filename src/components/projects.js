@@ -18,7 +18,7 @@ function Projects() {
   }, []);
 
   return (
-    <div className="sub-panel">
+    <div className="sub-panel" id="projects">
       <h3 className="sub-title">Projects</h3>
       {/* <div className="cards"> */}
       <motion.div ref={cards} className="cards">
