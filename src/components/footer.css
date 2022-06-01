@@ -1,48 +1,44 @@
 footer {
   color: white;
-  background: #1a202c;
-  padding: 8rem 10rem;
-}
-.footerUp {
+  background: #1d1d27;
+  padding: 4rem 00rem;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.footerDown {
-  font-family: Montserrat;
-  font-weight: 100;
-  display: flex;
-  justify-content: space-between;
-}
-.copy {
-  width: 60%;
-}
-.footHead {
-  font-family: Montserrat;
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-}
-.list {
-  font-family: Montserrat;
-  font-weight: 200;
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-  cursor: pointer;
-}
-.hrline {
-  margin: 2rem 0 0.6rem 0;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
 }
 .socials i {
-  font-size: 1.8rem;
-  margin-left: 1rem;
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
-.fb:hover {
-  color: #31508a;
+.gb:hover {
+  color: black;
+  text-shadow: 0px 0px 10px white;
 }
 .ld:hover {
-  color: #0a66c2;
+  color: black;
+  text-shadow: 0px 0px 10px #0a66c2;
 }
 .insta:hover {
-  color: tomato;
+  color: black;
+  text-shadow: 0px 0px 10px #df4466;
+}
+.mail:hover {
+  color: black;
+  text-shadow: 0px 0px 10px #0ef287;
+}
+.ending {
+  margin-top: 1rem;
+  font-family: Montserrat;
+  font-weight: 100;
+  /* color: #95a7d8; */
+}
+.myname {
+  font-family: Pacifico;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #95a7d8;
 }

@@ -14,7 +14,10 @@
   color: black;
   background: white;
 }
-
+.a,
+i {
+  color: white;
+}
 body {
   background: #1d1d2e;
 }
