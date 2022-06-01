@@ -1,9 +1,8 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEarthAsia,
-  faCoffee,
   faSquareArrowUpRight,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -12,18 +11,22 @@ function Card(props) {
 
   return (
     <div
-      className="card"
       className={hover ? `card cardHover` : `card`}
       onMouseOver={() => setHover(true)}
       onMouseOut={() => setHover(false)}
     >
       <div className="cardimg">
-        <img src={props.img}></img>
+        <img src={props.img} alt="project card"></img>
         <div className={hover ? `links linkHover` : `links`}>
-          <a href={props.demo} target="_blank" title="demo">
+          <a href={props.demo} target="_blank" rel="noreferrer" title="demo">
             <FontAwesomeIcon icon={faEarthAsia} />
           </a>
-          <a href={props.github} target="_blank" title="github">
+          <a
+            href={props.github}
+            target="_blank"
+            rel="noreferrer"
+            title="github"
+          >
             <FontAwesomeIcon icon={faSquareArrowUpRight} />
           </a>
         </div>

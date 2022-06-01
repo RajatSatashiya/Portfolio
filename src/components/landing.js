@@ -12,7 +12,11 @@ function landing() {
         </div>
       </div>
 
-      <img src="./images/rosemilk.jpeg" className="profile-pic"></img>
+      <img
+        src="./images/rosemilk.jpeg"
+        className="profile-pic"
+        alt="profile-pic"
+      ></img>
     </div>
   );
 }

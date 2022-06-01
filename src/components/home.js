@@ -1,5 +1,4 @@
 import React from "react";
-import Contact from "./contact";
 import Experience from "./experience";
 import Landing from "./landing";
 import Projects from "./projects";
