@@ -121,10 +121,15 @@ nav h3 {
     font-size: 13px;
   }
   .profile-pic {
-    height: 25%;
+    /* height: 20%; */
+    height: 40%;
+  }
+  .landing {
+    padding: 1rem;
+    flex-direction: column;
   }
   .land-left {
-    width: 20rem;
+    width: 90%;
   }
   .name {
     font-size: 3rem;
@@ -143,6 +148,9 @@ nav h3 {
   }
   nav {
     padding: 1rem 1rem;
+  }
+  .nav-list {
+    justify-content: center;
   }
   .nav-list li {
     margin: 0 0.4rem;
