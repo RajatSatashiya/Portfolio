@@ -45,8 +45,6 @@ nav h3 {
   font-family: Montserrat;
   font-weight: bolder;
   width: 25rem;
-  /* background: #333350; */
-  /* border-radius: 15%; */
   color: #f38fad;
 }
 .name {
@@ -116,4 +114,37 @@ nav h3 {
   width: 35%;
   right: 0px;
   top: 15%;
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 13px;
+  }
+  .profile-pic {
+    height: 25%;
+  }
+  .land-left {
+    width: 20rem;
+  }
+  .name {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .sub-panel {
+    margin: 4rem 0rem;
+    padding: 0.5rem 1rem;
+    /* background: pink; */
+  }
+  .exp-list {
+    width: 90%;
+  }
+  .exp-1 > p {
+    font-size: 1.3rem;
+  }
+  nav {
+    padding: 1rem 1rem;
+  }
+  .nav-list li {
+    margin: 0 0.4rem;
+  }
 }

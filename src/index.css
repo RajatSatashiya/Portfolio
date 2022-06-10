@@ -116,3 +116,13 @@ body {
 .icons img:hover {
   transform: scale(1.2);
 }
+
+/********* RESPONSIVE CSS *********/
+@media (max-width: 500px) {
+  .illustration {
+    display: none;
+  }
+  html {
+    font-size: 12px;
+  }
+}
