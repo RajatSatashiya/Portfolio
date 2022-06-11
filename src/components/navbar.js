@@ -11,7 +11,7 @@ function Navbar() {
     setHeight(navbar.current.offsetHeight);
   }, []);
   return (
-    <nav ref={navbar}>
+    <nav ref={navbar} className="nav2">
       <h3>Portfolio...</h3>
       <ul className="nav-list">
         <li>

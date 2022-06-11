@@ -116,13 +116,46 @@ nav h3 {
   top: 15%;
 }
 
+@media (max-width: 700px) {
+  html {
+    font-size: 13px;
+  }
+  .nav2 {
+    flex-direction: column;
+  }
+  .profile-pic {
+    height: 60%;
+  }
+  .landing {
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .land-left {
+    width: 90%;
+  }
+  .name {
+    font-size: 3rem;
+    line-height: 2.4rem;
+  }
+  .sub-panel {
+    margin: 4rem 0rem;
+    padding: 0rem 1.5rem;
+  }
+  .exp-list {
+    width: 80%;
+  }
+  .exp-1 > p {
+    font-size: 2rem;
+  }
+}
+
 @media (max-width: 500px) {
   html {
     font-size: 13px;
   }
   .profile-pic {
     /* height: 20%; */
-    height: 40%;
+    height: 50%;
   }
   .landing {
     padding: 1rem;

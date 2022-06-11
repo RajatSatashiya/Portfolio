@@ -118,11 +118,36 @@ body {
 }
 
 /********* RESPONSIVE CSS *********/
-@media (max-width: 500px) {
+@media (max-width: 700px) {
+  html {
+    font-size: 13px;
+  }
   .illustration {
     display: none;
   }
+  .cards {
+    margin: 2rem 0rem 0 0rem;
+  }
+  .card {
+    min-width: 22rem;
+  }
+}
+@media (max-width: 500px) {
   html {
     font-size: 12px;
+  }
+  .cards {
+    margin: 2rem 0rem 0 0rem;
+  }
+  .card {
+    height: 26rem;
+    min-width: 18rem;
+  }
+  .proj-desc {
+    font-size: 0.7rem;
+    font-weight: 400;
+  }
+  .techStack {
+    font-size: 0.6rem;
   }
 }
