@@ -7,8 +7,9 @@ function landing() {
         <p>Hola! Yo Soy,</p>
         <div className="name">Rajat Satashiya</div>
         <div className="desc">
-          a MERN stack Web developer from Ahmedabad who loves to build awesome
-          websites and drink coffee all day long.
+          a React Native app developer and MERN stack Web developer from
+          Bangalore who loves to build apps, awesome websites and drink coffee all day
+          long.
         </div>
       </div>
 
