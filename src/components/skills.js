@@ -14,7 +14,10 @@ function Skills() {
           src="https://img.icons8.com/color/344/javascript--v1.png"
           alt="skills"
         ></img>
-        <img src="https://img.icons8.com/color/344/java.png" alt="skills"></img>
+        <img
+          src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000"
+          alt="skills"
+        ></img>
         <img src="https://img.icons8.com/color/344/git.png" alt="skills"></img>
         <img
           src="https://img.icons8.com/color/344/python.png"

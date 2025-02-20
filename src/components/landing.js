@@ -7,14 +7,14 @@ function landing() {
         <p>Hola! Yo Soy,</p>
         <div className="name">Rajat Satashiya</div>
         <div className="desc">
-          a React Native app developer and MERN stack Web developer from
-          Bangalore who loves to build apps, awesome websites and drink coffee all day
+          React Native app developer and MERN stack Web developer from Bangalore
+          who loves to build apps, awesome websites and drink coffee all day
           long.
         </div>
       </div>
 
       <img
-        src="./images/rosemilk.jpeg"
+        src="./images/profilepic.jpeg"
         className="profile-pic"
         alt="profile-pic"
       ></img>
