@@ -1,0 +1,21 @@
+.nameContainer {
+    margin: '50px';
+    height: '85vh';
+    background: '#88EE83';
+    position: relative;
+}
+
+.name {
+    color: #191d16;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 60px;
+    /* bottom: 0px; */
+    /* left: 10px; */
+}
