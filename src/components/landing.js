@@ -1,5 +1,5 @@
 import React from "react";
-import "./landing.css";
+import "./landingStyles.css";
 import Typewriter from "typewriter-effect";
 
 function landing() {
