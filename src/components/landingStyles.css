@@ -76,7 +76,8 @@
   }
   .guitar {
     width: 25vw;
-    left: 50%;
+    left: 35%;
+    bottom: 1rem;
     opacity: 0.7;
   }
   .landing {
@@ -85,8 +86,7 @@
   }
   .subLanding {
     display: block;
-    width: 90%;
-    margin-top: 10%;
+    margin-top: 0;
   }
   .nameContainer {
     width: 100%;
