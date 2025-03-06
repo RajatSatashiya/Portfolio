@@ -87,6 +87,7 @@
   .subLanding {
     display: block;
     margin-top: 0;
+    height: 40vh;
   }
   .nameContainer {
     width: 100%;
