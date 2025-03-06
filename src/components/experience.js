@@ -1,6 +1,32 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
+import { SectionTitle } from "./SectionTitle/SectionTitle";
+import "./experience.css";
 
-function experience() {
+function Experience() {
+  const [isFocused, setIsFocused] = useState(false);
+  const expDataRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !isFocused) {
+          setIsFocused(true);
+        }
+      },
+      { threshold: 0.1 } // Trigger when 50% of the title is visible
+    );
+
+    if (expDataRef.current) {
+      observer.observe(expDataRef.current);
+    }
+
+    return () => {
+      if (expDataRef.current) {
+        observer.unobserve(expDataRef.current);
+      }
+    };
+  }, [isFocused]);
+
   const experienceData = [
     {
       role: "Associate Software Engineer",
@@ -42,9 +68,9 @@ function experience() {
     },
   ];
   return (
-    <div className="sub-panel" id="experience">
-      <h3 className="sub-title">Experience</h3>
-      <div className="sub-desc">
+    <div className="sub-panel" id="experience" ref={expDataRef}>
+      <SectionTitle title="Experience" />
+      <div className={`sub-desc ${isFocused && "slide-top"}`}>
         {experienceData.map((exp) => {
           if (!exp.isActive) return null;
           return (
@@ -64,14 +90,14 @@ function experience() {
             </div>
           );
         })}
+        {/* <img
+          src="./images/myasterapp.webp"
+          className="illustration"
+          alt="myAster Logo"
+        ></img> */}
       </div>
-      <img
-        src="./images/laptop.png"
-        className="illustration"
-        alt="laptop"
-      ></img>
     </div>
   );
 }
 
-export default experience;
+export default Experience;

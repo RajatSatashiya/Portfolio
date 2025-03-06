@@ -47,12 +47,6 @@ nav h3 {
   transform: scale(1.1);
   filter: saturate(2);
 }
-.sub-title {
-  font-family: Montserrat;
-  font-weight: 800;
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
-}
 .sub-panel {
   /* background: palegoldenrod; */
   color: #95a7d8;
@@ -61,41 +55,11 @@ nav h3 {
   border-radius: 20px;
   position: relative;
 }
-.sub-desc {
-  font-family: Montserrat;
-  font-size: 1.2rem;
-  font-weight: 800;
-  color: #f38fad;
-  color: #d8d8d8;
-}
-.exp-1 {
-  margin: 1rem 0 2rem 0;
-}
-.exp-1 > p {
-  font-family: Montserrat;
-  font-weight: 800;
-  font-size: 2rem;
-}
+
 .timeline {
   font-size: 0.9rem;
   font-weight: 500;
   margin: 5px 0;
-}
-.exp-list {
-  font-size: 1rem;
-  font-weight: 400;
-  margin: 0.5rem 0 0 1.5rem;
-  margin-top: 0.8rem;
-  width: 60%;
-}
-.exp-list li {
-  margin: 0.3rem 0;
-}
-.illustration {
-  position: absolute;
-  width: 35%;
-  right: 0px;
-  top: 15%;
 }
 
 @media (max-width: 700px) {
@@ -112,12 +76,6 @@ nav h3 {
     margin: 4rem 0rem;
     padding: 0rem 1.5rem;
   }
-  .exp-list {
-    width: 80%;
-  }
-  .exp-1 > p {
-    font-size: 2rem;
-  }
 }
 
 @media (max-width: 500px) {
@@ -130,12 +88,6 @@ nav h3 {
   .sub-panel {
     margin: 4rem 0rem;
     padding: 0.5rem 1rem;
-  }
-  .exp-list {
-    width: 90%;
-  }
-  .exp-1 > p {
-    font-size: 1.3rem;
   }
   nav {
     padding: 1rem 1rem;

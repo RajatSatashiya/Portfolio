@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect, useRef } from "react";
 import Card from "./card.js";
 import { motion } from "framer-motion";
+import { SectionTitle } from "./SectionTitle/SectionTitle.jsx";
 
 function Projects() {
   var techStack1 = ["MERN", "MapboxAPI", "Sockets", "Netlify"];
@@ -28,8 +29,8 @@ function Projects() {
 
   return (
     <div className="sub-panel" id="projects">
-      <h3 className="sub-title">Projects</h3>
-      {/* <div className="cards"> */}
+      <SectionTitle title="Projects" />
+
       <motion.div ref={cards} className="cards">
         <motion.div
           drag="x"

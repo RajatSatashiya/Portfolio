@@ -1,4 +1,5 @@
 import React from "react";
+import { SectionTitle } from "./SectionTitle/SectionTitle";
 
 function Skills() {
   const skills = [
@@ -52,7 +53,7 @@ function Skills() {
   ];
   return (
     <div className="sub-panel" id="skills">
-      <h3 className="sub-title">Skills</h3>
+      <SectionTitle title="Skills" />
       <div className="icons">
         {skills.map((skill, index) => {
           if (skill?.active === false) return null;
