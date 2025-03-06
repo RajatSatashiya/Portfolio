@@ -1,8 +1,8 @@
 import React from "react";
-import "./Landing.css";
+import "./landing.css";
 import Typewriter from "typewriter-effect";
 
-function Landing() {
+function landing() {
   const fullText =
     "Building apps by day, strumming guitar by night - an avid software engineer passionate about building web and mobile experiences...";
 
@@ -31,4 +31,4 @@ function Landing() {
   );
 }
 
-export default Landing;
+export default landing;

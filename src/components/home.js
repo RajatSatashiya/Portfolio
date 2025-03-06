@@ -1,6 +1,6 @@
 import React from "react";
 import Experience from "./experience";
-import Landing from "./Landing";
+import Landing from "./landing";
 import Projects from "./projects";
 import Skills from "./skills";
 
