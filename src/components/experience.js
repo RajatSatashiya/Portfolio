@@ -20,7 +20,7 @@ function experience() {
       role: "Backend Developer Intern",
       company: "Engineer's Cradle",
       timeline: "Nov, 2021 - Jan, 2022",
-      isActive: true,
+      isActive: false,
       techStack: "NodeJS, MongoDB",
       description: [
         "Worked with the team to develop backend routes for the website using ExpressJS and postman.",
@@ -46,7 +46,7 @@ function experience() {
       <h3 className="sub-title">Experience</h3>
       <div className="sub-desc">
         {experienceData.map((exp) => {
-          if (!exp.isActive) return;
+          if (!exp.isActive) return null;
           return (
             <div className="exp-1">
               <p>{`${exp.role} | ${exp.company}`}</p>

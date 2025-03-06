@@ -1,25 +1,34 @@
 import React from "react";
+import "./Landing.css";
+import Typewriter from "typewriter-effect";
 
-function landing() {
+function Landing() {
+  const fullText =
+    "Building apps by day, strumming guitar by night - an avid software engineer passionate about building web and mobile experiences...";
+
   return (
     <div className="landing">
-      <div className="land-left">
-        <p>Hola! Yo Soy,</p>
-        <div className="name">Rajat Satashiya</div>
-        <div className="desc">
-          React Native app developer and MERN stack Web developer from Bangalore
-          who loves to build apps, awesome websites and drink coffee all day
-          long.
+      <div className="subLanding">
+        <div className="nameContainer">
+          <p>Hola! Yo Soy,</p>
+          <div className="name">
+            RAJAT <br />
+            SATASHIYA
+            <img src="./images/transparentGuitar.png" className="guitar" />
+          </div>
+        </div>
+        <div className="aboutDesc">
+          <Typewriter
+            options={{
+              strings: fullText,
+              autoStart: true,
+              delay: 30,
+            }}
+          />
         </div>
       </div>
-
-      <img
-        src="./images/profilepic.jpeg"
-        className="profile-pic"
-        alt="profile-pic"
-      ></img>
     </div>
   );
 }
 
-export default landing;
+export default Landing;

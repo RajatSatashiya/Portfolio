@@ -2,39 +2,40 @@ import React from "react";
 import "./footer.css";
 
 function footer() {
+  const socials = [
+    {
+      url: "mailto:rajat09satashiya@gmail.com",
+      icon: "fas fa-envelope mail",
+      active: true,
+    },
+    {
+      url: "https://www.instagram.com/mr__satashiya/",
+      icon: "fab fa-instagram insta",
+      active: false,
+    },
+    {
+      url: "https://github.com/RajatSatashiya",
+      icon: "fab fa-github gb",
+      active: true,
+    },
+    {
+      url: "https://www.linkedin.com/in/rajatsatashiya/",
+      icon: "fab fa-linkedin ld",
+      active: true,
+    },
+  ];
   return (
     <footer>
       <div className="socials">
-        <a
-          href="mailto:rajat09satashiya@gmail.com"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <i className="fas fa-envelope mail"></i>
-        </a>
-        <a
-          href="https://www.instagram.com/mr__satashiya/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <i className="fab fa-instagram insta"></i>
-        </a>
-        <a
-          href="https://github.com/RajatSatashiya"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <i className="fab fa-github gb"></i>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/rajatsatashiya/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <i className="fab fa-linkedin ld"></i>
-        </a>
+        {socials.map((social, index) => {
+          if (social.active === false) return null;
+          return (
+            <a key={index} href={social.url} target="_blank" rel="noreferrer">
+              <i className={social.icon}></i>
+            </a>
+          );
+        })}
       </div>
-
       <div className="ending">
         <div className="salutation">Hecho Con Amor Por,</div>
         <div className="myname">Rajat Satashiya</div>
